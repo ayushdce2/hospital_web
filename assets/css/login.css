@@ -151,3 +151,20 @@
     color: #1F316F;
     font-weight: bold;
 }
+
+/* responsive STARTS */
+
+@media only screen and (max-width:767px){
+    .my_login_inside {
+        grid-template-columns: 1fr;
+    }
+    .my_login_left_wrap{
+        display: none;
+    }
+    .my_login_wrap {
+        padding: 1rem;
+    }
+    .my_login_right_mid_inside{
+        width: 100%;
+    }
+}
