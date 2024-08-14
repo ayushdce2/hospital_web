@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="./assets/css/common.css"/>
     <link rel="stylesheet" href="./assets/css/login.css"/>
+    <link rel="stylesheet" href="./assets/css/register.css"/>
 </head>
 <body>
 
@@ -45,18 +46,36 @@
                             <div class="my_login_right_mid_wrap">
                                 <div class="my_login_right_mid_inside">
                                     <div class="my_login_right_welcome text_center">
-                                        <p>Welcome Back</p>
+                                        <p>Create New Account</p>
                                     </div>
                                     <div class="my_login_right_login_text text_center">
-                                        <p>Enter your email and password to access your account</p>
+                                        <p>Already have an account ? <span><a href="./index.html">Sign In</a></span></p>
                                     </div>
                                     <div>
-                                        <label>Email / Phone No.</label>
+                                        <label>Name</label>
                                     </div>
                                     <div class="my_login_right_email_text">
-                                        <input type="email" placeholder="Enter your email / phone no."/>
+                                        <input type="email" placeholder="Enter your name"/>
+                                        <span class="my_login_right_email_icon">
+                                            <img src="./assets/images/user.svg"/>
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <label>Email</label>
+                                    </div>
+                                    <div class="my_login_right_email_text">
+                                        <input type="email" placeholder="Enter your email"/>
                                         <span class="my_login_right_email_icon">
                                             <img src="./assets/images/email.svg"/>
+                                        </span>
+                                    </div>
+                                    <div class="my_phone_number">
+                                        <label>Phone No. <span>(Recommended)</span></label>
+                                    </div>
+                                    <div class="my_login_right_email_text">
+                                        <input type="email" placeholder="Enter your phone number"/>
+                                        <span class="my_login_right_email_icon">
+                                            <img src="./assets/images/phone.svg"/>
                                         </span>
                                     </div>
                                     <div>
@@ -72,16 +91,9 @@
                                             <img src="./assets/images/eye_close.svg" style="display: none;"/>
                                         </span>
                                     </div>
-                                    <div class="my_login_right_remember_forgot flex justify_sp_between">
-                                        <div class="my_login_right_remember_me">
-                                            <input type="checkbox" id="remember_me"><label for="remember_me">Remeber me</label>
-                                        </div>
-                                        <div>
-                                            <label><a href="./forgot_pass.html">Forgot Password</a></label>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="sign_in_button">
-                                        <a href="#">Sign In</a>
+                                        <a href="#">Sign Up</a>
                                     </div>
                                     <div class="login_separator">
                                         <hr/>
@@ -90,7 +102,7 @@
                                         </span>
                                     </div>
                                     <div class="google_sign_in_button">
-                                        <a href="#">Sign In with Google</a>
+                                        <a href="#">Sign Up with Google</a>
                                     </div>
                                     
                                     
@@ -98,9 +110,8 @@
                                 </div>
 
                             </div>
-                            <div class="my_login_right_bottom_text">
-                                <p class="my_login_right_bottom_text_unit">Dont have an account? <span><a href="./register.html">Sign Up</a></span></p>
-                            </div>
+
+                            
 
                         </div>
 
