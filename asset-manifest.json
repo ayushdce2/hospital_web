@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/hospital_web/static/css/main.f855e6bc.css",
-    "main.js": "/hospital_web/static/js/main.051d10b3.js",
+    "main.css": "/hospital_web/static/css/main.cfb7b97b.css",
+    "main.js": "/hospital_web/static/js/main.c2a6ef03.js",
     "static/js/453.873ac1ca.chunk.js": "/hospital_web/static/js/453.873ac1ca.chunk.js",
-    "static/media/logo.svg": "/hospital_web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Poppins-Medium.ttf": "/hospital_web/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
     "index.html": "/hospital_web/index.html",
-    "main.f855e6bc.css.map": "/hospital_web/static/css/main.f855e6bc.css.map",
-    "main.051d10b3.js.map": "/hospital_web/static/js/main.051d10b3.js.map",
+    "static/media/eye_close.svg": "/hospital_web/static/media/eye_close.db3f9d7aa440e3a8645af868c68e0f90.svg",
+    "static/media/password.svg": "/hospital_web/static/media/password.796997bde6ea7c220d684f1d4e6528e7.svg",
+    "static/media/eye_open.svg": "/hospital_web/static/media/eye_open.6b8499915e43dc5e9c7bc6c2fe233fc3.svg",
+    "static/media/phone.svg": "/hospital_web/static/media/phone.d713955e95021449ff5ef81b5379cb5b.svg",
+    "static/media/user.svg": "/hospital_web/static/media/user.0de264b49c175e1e7363802082df599a.svg",
+    "static/media/email.svg": "/hospital_web/static/media/email.fc27aa3081826958d54528593a2b0a22.svg",
+    "main.cfb7b97b.css.map": "/hospital_web/static/css/main.cfb7b97b.css.map",
+    "main.c2a6ef03.js.map": "/hospital_web/static/js/main.c2a6ef03.js.map",
     "453.873ac1ca.chunk.js.map": "/hospital_web/static/js/453.873ac1ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.051d10b3.js"
+    "static/css/main.cfb7b97b.css",
+    "static/js/main.c2a6ef03.js"
   ]
 }
